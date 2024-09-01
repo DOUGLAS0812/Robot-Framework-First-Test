@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-09-01T11:02:33.050188" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\RobotFrameworkfirstTest\test.robot">
+<test id="s1-t1" name="Caso de Teste Exemplo" line="7">
+<kw name="Acessar a pagina da amazon" owner="resource1">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-01T11:02:33.671836" level="INFO">Opening browser 'Mozilla Firefox' to base url 'http://wwww.amazon.com.br'.</msg>
+<msg time="2024-09-01T11:02:33.671836" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-09-01T11:02:33.671836" level="FAIL">ValueError: mozillafirefox is not a supported browser.</msg>
+<arg>url=${URl}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-09-01T11:02:33.671836" elapsed="0.000000">ValueError: mozillafirefox is not a supported browser.</status>
+</kw>
+<status status="FAIL" start="2024-09-01T11:02:33.671836" elapsed="0.000000">ValueError: mozillafirefox is not a supported browser.</status>
+</kw>
+<kw name="Pesquisar por celulares" owner="resource1">
+<status status="NOT RUN" start="2024-09-01T11:02:33.671836" elapsed="0.000000"/>
+</kw>
+<kw name="Validar o resultado" owner="resource1">
+<status status="NOT RUN" start="2024-09-01T11:02:33.671836" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-09-01T11:02:33.671836" elapsed="0.000000">ValueError: mozillafirefox is not a supported browser.</status>
+</test>
+<doc>Teste Exemplo</doc>
+<status status="FAIL" start="2024-09-01T11:02:33.050188" elapsed="0.636926"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
